@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "docs": "ng build --output-path docs --base-href /node-heroku-client/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
