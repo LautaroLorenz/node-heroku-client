@@ -1,1 +1,6 @@
 <p>menu works!</p>
+<app-heroku-menu></app-heroku-menu>
+
+<ng-container *ngIf="menuOptions$ | async as menuOptions">
+  {{menuOptions | json}}
+</ng-container>

@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   server: {
-    heroku: 'localhost:5000'
+    heroku: 'http://localhost:5000',
   },
 };
 

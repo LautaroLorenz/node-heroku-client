@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MenuComponent } from './menu.component';
+import { HerokuMenuComponent } from './heroku-menu.component';
 
-describe('MenuComponent', () => {
-  let component: MenuComponent;
-  let fixture: ComponentFixture<MenuComponent>;
+describe('HerokuMenuComponent', () => {
+  let component: HerokuMenuComponent;
+  let fixture: ComponentFixture<HerokuMenuComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [MenuComponent],
+      declarations: [HerokuMenuComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(MenuComponent);
+    fixture = TestBed.createComponent(HerokuMenuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
